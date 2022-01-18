@@ -1,0 +1,6 @@
+{
+  "appTitle": "appexc_logging",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
