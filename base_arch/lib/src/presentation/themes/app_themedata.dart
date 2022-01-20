@@ -25,7 +25,7 @@
 // ThemeData and have to set theme for cards by card.
 
 
-import 'package:base_arch/src/infrastrucutre/app_vars.dart';
+
 import 'package:base_arch/src/presentation/themes/app_appbar_theme.dart';
 import 'package:base_arch/src/presentation/themes/app_banner_themedata.dart';
 import 'package:base_arch/src/presentation/themes/app_bottomsheet_themedata.dart';
@@ -60,6 +60,7 @@ import 'package:flutter/material.dart';
 
 
 
+import '../../infrastructure/app_vars.dart';
 import 'app_themedata_ext.dart';
 
 ThemeData appMaterialLightThemeData = ThemeData(

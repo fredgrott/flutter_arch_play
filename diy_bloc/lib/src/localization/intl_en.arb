@@ -1,0 +1,6 @@
+{
+  "appTitle": "diy_bloc",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

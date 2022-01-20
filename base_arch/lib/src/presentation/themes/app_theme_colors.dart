@@ -5,7 +5,7 @@
 // ignore_for_file: cast_nullable_to_non_nullable
 
 
-import 'package:base_arch/src/infrastrucutre/app_vars.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +14,8 @@ import 'package:flutter/material.dart';
 
 
 import 'package:material_color_utilities/material_color_utilities.dart';
+
+import '../../infrastructure/app_vars.dart';
 
 
 

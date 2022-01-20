@@ -3,9 +3,7 @@
 // license that can be found in the LICENSE file.
 
 
-import 'package:base_arch/src/infrastrucutre/app_vars.dart';
-import 'package:base_arch/src/infrastrucutre/app_widget_keys.dart';
-import 'package:base_arch/src/presentation/features/home/default_scaffold_demo.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_platform_widgets/flutter_platform_widgets.dart';
@@ -20,6 +18,9 @@ import 'package:base_arch/src/localization_gen/l10n.dart';
 
 
 
+import 'infrastructure/app_vars.dart';
+import 'infrastructure/app_widget_keys.dart';
+import 'presentation/features/home/default_scaffold_demo.dart';
 import 'presentation/themes/app_themedata.dart';
 
 

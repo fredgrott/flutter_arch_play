@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+
 import 'package:base_arch/src/domain/errors/app_failure.dart';
 import 'package:base_arch/src/domain/models/sample_item_model.dart';
 import 'package:dartz/dartz.dart';
@@ -13,5 +14,6 @@ import 'package:dartz/dartz.dart';
 abstract class ISampleItemRepo {
   Future<Either<RepoFailure, SampleItemModel>> getSampleItem(int id);
   Future<Either<RepoFailure, SampleItemModel>> addSampleItem(int id);
+
 
 }

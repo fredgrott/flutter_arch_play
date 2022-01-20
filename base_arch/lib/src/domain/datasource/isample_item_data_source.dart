@@ -2,11 +2,15 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-import 'package:base_arch/src/data/models/sample_item_list_view_model.dart';
-import 'package:base_arch/src/domain/errors/app_failure.dart';
 import 'package:dartz/dartz.dart';
 
 
+import '../errors/app_failure.dart';
+import '../models/sample_item_model.dart';
+
 abstract class ISampleItemDataSource {
-  Future<Either<DataSourceFailure, SampleItemListViewModel>> getSampleItemModel();
+  Future<Either<DataSourceFailure, List<SampleItemModel>>>
+      getSampleItemListModel();
+  Future<Either<DataSourceFailure, List<SampleItemModel>>>
+      initSampleItemListModel();
 }
