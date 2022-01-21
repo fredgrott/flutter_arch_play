@@ -1,0 +1,6 @@
+{
+  "appTitle": "intl_play",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
