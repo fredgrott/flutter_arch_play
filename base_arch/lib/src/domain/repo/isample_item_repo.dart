@@ -13,7 +13,7 @@ import 'package:dartz/dartz.dart';
 /// @author Fredrick Allan Grott
 abstract class ISampleItemRepo {
   Future<Either<RepoFailure, SampleItemModel>> getSampleItem(int id);
-  Future<Either<RepoFailure, SampleItemModel>> addSampleItem(int id);
+  
 
 
 }

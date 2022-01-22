@@ -1,0 +1,6 @@
+{
+  "appTitle": "ui_unit_tests",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

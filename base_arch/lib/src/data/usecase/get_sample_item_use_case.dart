@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-
+import 'package:base_arch/src/domain/repo/isample_item_repo.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 
@@ -11,12 +11,14 @@ import '../../domain/models/sample_item_model.dart';
 import '../../domain/usecase/app_use_case.dart';
 
 class GetSampleItemUseCase implements AppUseCase<SampleItemModel, Params> {
+  late final ISampleItemRepo repo;
+
+  GetSampleItemUseCase(this.repo);
+
   @override
-  Future<Either<AppFailure, Type>> call(Params params) {
-    // TODO: implement call
-    throw UnimplementedError();
+  Future<Either<AppFailure, Type>> call(Params params) async {
+    return await repo.getSampleItem(params.id) as Future<Either<AppFailure, Type>>;
   }
-  
 }
 
 class Params extends Equatable {
@@ -24,7 +26,6 @@ class Params extends Equatable {
 
   @override
   List<Object> get props => [id];
-
 
   const Params(this.id);
 }

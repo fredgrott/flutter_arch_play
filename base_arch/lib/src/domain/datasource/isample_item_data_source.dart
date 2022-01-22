@@ -10,7 +10,7 @@ import '../models/sample_item_model.dart';
 
 abstract class ISampleItemDataSource {
   Future<Either<DataSourceFailure, List<SampleItemModel>>>
-      getSampleItemListModel();
+      getSampleItem(int id);
   Future<Either<DataSourceFailure, List<SampleItemModel>>>
       initSampleItemListModel();
 }
