@@ -1,0 +1,6 @@
+{
+  "appTitle": "base_arch_observe",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

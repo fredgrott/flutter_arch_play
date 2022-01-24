@@ -1,0 +1,6 @@
+{
+  "appTitle": "base_error",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

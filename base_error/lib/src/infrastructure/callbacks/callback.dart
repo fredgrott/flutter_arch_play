@@ -1,0 +1,15 @@
+// Copyright 2022 Fredrick Allan Grott. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+//
+// Borrowed from zam core by Zamstation copyright 2021
+// BSD 3-clause license
+
+///
+/// Example:
+///
+///     final Callback<int> callback;
+///     ...
+///     final output = callback();
+///
+typedef Callback<OUTPUT extends Object?> = OUTPUT Function();
